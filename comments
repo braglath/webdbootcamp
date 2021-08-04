@@ -4,7 +4,7 @@ head - gets meta tags and title
 
 title comes on search first line and page top bar
 
-<!-- to add comments -->
+<!-- to add comments --> - ctrl+/
 
 <p> for paragraph</p>
 
