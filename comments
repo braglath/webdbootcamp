@@ -16,6 +16,10 @@ every code goes into the body tag below head tag
 
 <ul>for unordered list, <li></li>, </ul>
 
-<a hreg = ""> hyperlinks, selectable text, links</a>
+<a href = ""> hyperlinks, selectable text, links</a>
+if an image in on the same folder then just mention the image name
+copy image from address from any website and put the link inside src
+if an image in on the another folder then mention the image name along with the path like /images/imageName
 
 <br> for one below another
+
