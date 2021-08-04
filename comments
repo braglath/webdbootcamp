@@ -1,0 +1,21 @@
+type !!! and tab for doctype html
+
+head - gets meta tags and title 
+
+title comes on search first line and page top bar
+
+<!-- to add comments -->
+
+<p> for paragraph</p>
+
+<b> bold font </b>
+
+every code goes into the body tag below head tag
+
+<ol> for ordered list, <li></li>, </ol>
+
+<ul>for unordered list, <li></li>, </ul>
+
+<a hreg = ""> hyperlinks, selectable text, links</a>
+
+<br> for one below another
