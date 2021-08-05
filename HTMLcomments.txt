@@ -1,0 +1,84 @@
+type !!! and tab for doctype html
+
+head - gets meta tags and title 
+
+title comes on search first line and page top bar
+
+<!-- to add comments --> - ctrl+/
+
+<p> for paragraph</p>
+
+<b> bold font </b>
+
+every code goes into the body tag below head tag
+
+<ol> for ordered list, <li></li>, </ol>
+
+<ul>for unordered list, <li></li>, </ul>
+
+<a href = ""> hyperlinks, selectable text, links</a>
+if an image in on the same folder then just mention the image name
+copy image from address from any website and put the link inside src
+if an image in on the another folder then mention the image name along with the path like /images/imageName
+
+<br> for one below another
+
+<hr> to create a line across
+<sup></sup>, for mathematical squares, text on top
+<sub></sub>, for equations, text on bottom
+
+SEMANTIC ELEMENTS 
+they are essential for SEO
+and screen readers 
+
+<main> main indicates main content
+
+<div> division - a generic container
+
+instead of divs we can use more specific elements like below
+
+<article> - self-contained composition, application or site. intended to be independently distributable
+article starts with a <h>
+best example of a article is a movie review
+article section
+title
+then individual sections
+we can also have a footer to an article
+
+<main> - main content of the page, should exclude contents like sidebars, navigation links, 
+copyright information, logos and search forms unless the search form is the main content of the page.
+
+<aside> - side content, side box contents
+contents aside of another content
+like in a website there will be contents in the side
+
+<summary> -
+
+<details> -
+
+<header> - Introductory content, may include nav and other contents
+
+<section> - represents a standalone section of content
+
+<nav> navigation - for links, best for navigation bars 
+
+<footer> - bottom of the site, mostly contain nav links
+
+<time> - used when we mention a date and time, we need to specific date time attribute
+<time datetime="2018-07-07">July 7</time>
+
+<figure> - usually an image, can specify figcaption
+<figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Canterino_Gallo.jpg/295px-Canterino_Gallo.jpg" alt="picture of a chicken" />
+<figcaption>image of an chicken</figcaption></figure>
+
+<figcaption> - image caption, text under an image
+
+<address> - address details of a person
+
+
+EMMET SHORTCUT
+main>article>h1>footer and then press tab/enter - (>) for nested
+h1+h2+h3+h4 - (+) for non nested
+ul>li*5 - (*) for multiplication
+() - text inside ""
+{} - text inside > <
