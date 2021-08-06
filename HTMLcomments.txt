@@ -6,9 +6,21 @@ title comes on search first line and page top bar
 
 <!-- to add comments --> - ctrl+/
 
-<p> for paragraph</p>
+<p> - for paragraph</p>
+
+<pre> - preserve preformatted text that has been typed in the code
 
 <b> bold font </b>
+
+<strong> - the text is strongly conveyed. same as bold this will be shown as a bold text
+
+<em> - emphasis a text 
+
+<mark> - this will highlight the text with a yellow marker
+
+<del> - this will strikeout the text
+
+<q> - this will add "" to the text
 
 every code goes into the body tag below head tag
 
@@ -68,6 +80,9 @@ like in a website there will be contents in the side
 <time datetime="2018-07-07">July 7</time>
 
 <figure> - usually an image, can specify figcaption
+<blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>Words can be like X-rays</p>
+                </blockquote>
 <figure><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Canterino_Gallo.jpg/295px-Canterino_Gallo.jpg" alt="picture of a chicken" />
 <figcaption>image of an chicken</figcaption></figure>
 
