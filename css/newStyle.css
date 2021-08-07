@@ -41,6 +41,11 @@ p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+mark {
+    background-color: aqua;
+    /* use mark to change the color of the marker */
+}
+
 q {
     color: #d5d4fc;
     background-color: antiquewhite;
