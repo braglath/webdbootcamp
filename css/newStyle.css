@@ -7,7 +7,11 @@ h1 {
     line-height: 2.5;
     /* em, %, px */
     letter-spacing: 5px;
+    font-size: 40px;
+    /* font-weight: 100; */
     /* rem,px */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -34,6 +38,11 @@ p {
     font-weight: bold;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+q {
+    color: #d5d4fc;
+    background-color: antiquewhite;
 }
 
 a {
