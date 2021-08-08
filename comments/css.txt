@@ -16,3 +16,6 @@ you can add many fonts as choices one after another by adding a comma
 text transform to uppercase/lowecase/capitalize in css
 
 use mark{} in css to change the color of the marker
+
+HELLO THERE
+how are you doing???
