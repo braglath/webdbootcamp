@@ -90,6 +90,8 @@ like in a website there will be contents in the side
 
 <address> - address details of a person
 
+<caption>   - Text below(caption)
+
 
 EMMET SHORTCUT
 main>article>h1>footer and then press tab/enter - (>) for nested
@@ -97,3 +99,18 @@ h1+h2+h3+h4 - (+) for non nested
 ul>li*5 - (*) for multiplication
 () - text inside ""
 {} - text inside > <
+
+
+
+########## Tables #########
+a table should always have a <tr>
+
+<tr> - Row of cells in a table, how many rows you have, make no of <tr>
+<td> - Data cells  - we can also add a empty td to display nothing inside the box
+<th> - Header cells
+
+<thead> - header of a table, put the first row inside header, we can add more then one header
+<tbody> - put the body of the table here
+<tfoot> - last row of the table, only if there is any conclusion like total of numbers
+rowspan - inside <th> = <th rowspan = "2"> - takes up 2 boxes
+colspan - inside <th> = <th colspan = "2"> - takes 2 categories
