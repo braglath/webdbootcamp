@@ -1,0 +1,21 @@
+below will be the comments for css
+
+
+####### FONTS #####
+
+px -- is the most commonly used unit
+but not recommended for responsive website as it will be changing
+
+font-size to change the size of the font
+
+changing font, fonts should be installed in the browser
+safe to use the browser fonts
+https://www.cssfontstack.com/ check the link for commonly used fonts
+you can add many fonts as choices one after another by adding a comma
+
+text transform to uppercase/lowecase/capitalize in css
+
+use mark{} in css to change the color of the marker
+
+
+HELLO THERE
