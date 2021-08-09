@@ -114,3 +114,19 @@ a table should always have a <tr>
 <tfoot> - last row of the table, only if there is any conclusion like total of numbers
 rowspan - inside <th> = <th rowspan = "2"> - takes up 2 boxes
 colspan - inside <th> = <th colspan = "2"> - takes 2 categories
+
+######### FORMS ############
+this is where we can get user input
+radio button 
+search form 
+action attribute - tells where the data should be sent - destination to send the data to 
+method attribute - tells which HTTP method should be used 
+<input> - 20+ possible types of inputs ranging from date pichers to checkboxes
+no closing tag for input 
+always put input inside form
+type attribute is the thing says which is which
+placeholder attribute - hint text display while the input box is empty          
+<label> - best for screen readers and users. label the input always
+label is clickable
+we give id to an input and for to an label sayin the same id to tag both
+only 1 id should be given to a input
