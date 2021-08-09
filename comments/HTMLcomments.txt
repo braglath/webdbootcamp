@@ -130,3 +130,10 @@ placeholder attribute - hint text display while the input box is empty
 label is clickable
 we give id to an input and for to an label sayin the same id to tag both
 only 1 id should be given to a input
+
+####### Button #########
+<blutton> - button, takes an action attribute
+Buttons dont have default behaviour
+type attribute inside button tag
+different types - button, menu, reset, submit
+button type above will not submit even if there is an action attribute above
