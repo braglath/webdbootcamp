@@ -11,7 +11,7 @@
     <form action="/tacos">
       <p>
         <label for="username">this is your username: </label>
-        <input type="text" placeholder="username" id="username" />
+        <input type="text" placeholder="username" id="username" name="username" />
       </p>
       <p>
         <label for="password">this is password: </label>
@@ -25,7 +25,12 @@
           <label for="number">Choose a Number: </label>
         <input type="number" placeholder="number" id="number" />
       </p>
-    <button type="button">Submit</button>
+    <button type="submit">Submit</button>
     </form>
+
+    <form action="/http://www.reddit.com/search">
+    <input type="text" name="q">
+    <button>search button</button>
+  </form>
   </body>
 </html>

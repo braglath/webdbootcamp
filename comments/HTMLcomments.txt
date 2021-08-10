@@ -137,3 +137,6 @@ Buttons dont have default behaviour
 type attribute inside button tag
 different types - button, menu, reset, submit
 button type above will not submit even if there is an action attribute above
+
+
+name attribute sends the data to the name mentioned
