@@ -152,3 +152,17 @@ value will not be displayed to the user but it is the data that will be sent thr
 Select - this is a element to display dropdowns, need to add another attribute to it called options
 select element groups a bunch of options which has a value which will be sent through and a text and a closing tag
 we can also add selected inside options - to make that option pre selected
+
+input type="range" - puts a slider
+we can add min and max values 
+
+min attribute - minimum value
+max attribute - maximum value
+step attribute - no of steps in a slider or a number picker dropdowns
+
+######### Text Area #########
+it is a multi-line text input box, area size of a text input box 
+this is element with a opening and a closing tag
+this will take row and col attribute 
+rows - increase the size of the text input box width vise
+cols - increase the size of the text input box height vise 
