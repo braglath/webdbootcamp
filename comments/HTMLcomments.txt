@@ -138,5 +138,17 @@ type attribute inside button tag
 different types - button, menu, reset, submit
 button type above will not submit even if there is an action attribute above
 
-
 name attribute sends the data to the name mentioned
+
+########Type Elements########
+checkbox - add checkbox 
+use checked at the end of the input to start as already checked
+you can select multiple checkboxes
+Radio - in a group of radiobuttons you can only select one
+giving same name to radio buttons makes them into a group
+Have to add value attribute to a all the radio buttons
+value will not be displayed to the user but it is the data that will be sent through
+
+Select - this is a element to display dropdowns, need to add another attribute to it called options
+select element groups a bunch of options which has a value which will be sent through and a text and a closing tag
+we can also add selected inside options - to make that option pre selected

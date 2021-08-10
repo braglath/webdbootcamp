@@ -28,9 +28,36 @@
     <button type="submit">Submit</button>
     </form>
 
-    <form action="/http://www.reddit.com/search">
+    <form action="https://www.reddit.com/search">
     <input type="text" name="q">
     <button>search button</button>
   </form>
+  <hr>
+  <h2>More Types</h2>
+  <form action="/birds">
+  <input type="checkbox" name="agree" id="agree" >
+  <label for="agree">I agree to everything</label>
+  <p>
+    <label for="xs">XS</label>
+    <input type="radio" name="size" id="xs" value="xs">
+    <label for="s">Small</label>
+    <input type="radio" name="size" id="s" value="small">
+    <label for="m">Medium</label>
+    <input type="radio" name="size" id="m" value="medium">  
+    <label for="l">Large</label>
+    <input type="radio" name="size" id="l" value="large">
+</p>
+<p>
+<label for="meal">Please Select a Entree</label>
+<select name="meal" id="meal">
+  <!-- <option value="">Please Choose an Option</option> -->
+  <option value="fish">Fish</option>
+  <option value="chicken" selected>Chicken</option>
+  <option value="egg">Egg</option>
+  <option value="fish">Mutton</option>
+</select>
+</p>
+  <button>Submit</button>
+</form>
   </body>
 </html>
