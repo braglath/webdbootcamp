@@ -68,5 +68,24 @@
 </p>
   <button>Submit</button>
 </form>
+<hr> 
+<h2>Validation Demo</h2>
+<form action="dummy">
+  <label for="first">Enter First Name:</label>
+  <input type="text" name="first" id="first" required placeholder="firs name">
+  <p>
+  <label for="username">Enter Your Username:</label>
+  <input type="username" name="username" id="username" minlength="4" maxlength="15" required placeholder="username">
+</p>
+<p>
+  <label for="password">Enter Your Password</label>
+  <input type="password" id="password" name="password" placeholder="password" minlength="4" maxlength="12" required>
+</p>
+<p>
+  <label for="age">Select Your Age</label>
+  <input type="number" id="age" name="age" placeholder="age" min="15" max="80" required>
+</p>
+  <button>Submit</button>
+</form>
   </body>
 </html>

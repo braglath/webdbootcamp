@@ -166,3 +166,21 @@ this is element with a opening and a closing tag
 this will take row and col attribute 
 rows - increase the size of the text input box width vise
 cols - increase the size of the text input box height vise 
+
+##### Validations #####
+example password must have only 12 characters - constraints
+server side Validations
+built in validations -- 
+required attribute - you cannot submit without filling the required things
+min length attribute - minimum characters required
+max length attribute - maximum characters required
+
+###for date, time, month, week, time, datetime-local, number, range(slider) ####
+do not use this for password fields
+min attribute - for numeric characters above
+max attribute - for numeric characters above
+
+pattern attribute - specifies a regular expression mainly we can use on validations 
+and mainly used on password validations
+
+type email, url.  already have an inbuilt validation
