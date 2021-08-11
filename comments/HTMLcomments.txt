@@ -183,4 +183,4 @@ max attribute - for numeric characters above
 pattern attribute - specifies a regular expression mainly we can use on validations 
 and mainly used on password validations
 
-type email, url.  already have an inbuilt validation
+type email, url already have an inbuilt email validation
