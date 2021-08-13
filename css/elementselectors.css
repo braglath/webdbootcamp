@@ -1,0 +1,12 @@
+*{
+    color: white;
+    background-color: blueviolet;
+}
+/* we can use , to use multiple selectors */
+h1,h2{
+    color: tomato;
+}
+
+button{
+    background-color: turquoise;
+}

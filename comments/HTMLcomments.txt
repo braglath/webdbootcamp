@@ -57,6 +57,8 @@ title
 then individual sections
 we can also have a footer to an article
 
+<section> - generic standalone section of a document, sections should always have a heading 
+
 <main> - main content of the page, should exclude contents like sidebars, navigation links, 
 copyright information, logos and search forms unless the search form is the main content of the page.
 
@@ -114,6 +116,7 @@ a table should always have a <tr>
 <tfoot> - last row of the table, only if there is any conclusion like total of numbers
 rowspan - inside <th> = <th rowspan = "2"> - takes up 2 boxes
 colspan - inside <th> = <th colspan = "2"> - takes 2 categories
+<span> - just like div this does nothing but very helpful for styling and this is a inline element
 
 ######### FORMS ############
 this is where we can get user input

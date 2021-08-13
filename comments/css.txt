@@ -22,3 +22,22 @@ how are you doing???
 
 
 testing git push for the second time
+
+###### CSS SELECTOR #########
+Universal Selector - * - this selects everything in the document
+example
+*{
+    color:black;
+} -  this makes everything black
+
+button - this selects all buttons
+example
+button{
+    font-size: 18px;
+}
+
+we can use comma to use multiple selectors 
+like 
+h1,h2{
+    font-size: violet;
+}
