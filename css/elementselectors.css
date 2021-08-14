@@ -1,12 +1,42 @@
-*{
+/* *{
     color: white;
     background-color: blueviolet;
-}
+} */
 /* we can use , to use multiple selectors */
-h1,h2{
-    color: tomato;
+
+body {
+  background-color: #f1faee;
 }
 
-button{
-    background-color: turquoise;
+/* h1,
+h2 {
+  color: #1d3557;
+} */
+
+button {
+  background-color: #a8dadc;
+}
+
+#signup {
+  background-color: #1d3557;
+  color: #a8dadc;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: #1d3557;
+}
+
+.tag {
+  color: white;
+  background-color: tomato;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  color: #1d3557;
 }

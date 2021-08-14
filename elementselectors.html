@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Element Selectors</title>
-    <link rel="stylesheet" href="/css/elementselectors.css">
+    <link rel="stylesheet" href="/css/elementselectors.css" />
   </head>
   <body>
     <nav>
+      <label for="search"> Search</label>
       <input type="search" name="search" id="search" placeholder="search" />
-      <button>Login</button> <button>Sign Up</button>
+      <button>Login</button> <button id="signup">Sign Up</button>
     </nav>
     <main>
       <section>
@@ -18,7 +19,9 @@
         <span
           >Powered by <a href="https://www.google.com">/u/not funny</a></span
         >
-        <h2>Lol look at this hillarious meme funny</h2>
+        <h2>
+          Lol look at this hillarious meme <span class="tag"> funny </span>
+        </h2>
         <button>+vote</button>
         <hr />
 
@@ -27,13 +30,16 @@
         >
         <h2>
           Happy birthday to the strongest defender/bodyguard in the Prem!
-          gunners
+          <span class="tag"> gunners </span>
         </h2>
         <button>+vote</button>
         <hr />
 
         <span>Posted by <a href="https://www.google.com">/u/dogfan</a></span>
-        <h2>This Corgi got some good stuff from the ver. dogs</h2>
+        <h2>
+          This Corgi got some good stuff from the ver.
+          <span class="tag"> dogs </span>
+        </h2>
         <button>+vote</button>
         <hr />
       </section>

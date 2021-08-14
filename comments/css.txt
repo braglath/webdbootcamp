@@ -41,3 +41,16 @@ like
 h1,h2{
     font-size: violet;
 }
+
+
+###### ID Selector #######
+we can use id to hook between html and css
+but when using an id of a html in css, you have to add #in front of the id in css
+no space between # and the id text in css
+1 id should be only used once when for the hook
+use id selectors as less as possible, there are other selectors to style individual elements
+
+##### Class Selector #######
+same as an id selector(check above) but this can be use on multiple elements
+when using class hook in css, you have to add a . in front of the class name in css
+by using class we can group together different elements to style them in css
