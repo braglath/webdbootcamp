@@ -56,15 +56,16 @@ h2 + button {
 
 div {
   margin: auto;
-  /* width: 50%; */
-  border: 10px tomato;
+  /* background-color: #e63946; */
+  width: 200px;
+  border: 5px solid tomato;
   padding: 10px;
   text-align: center;
 }
 
 div > a {
-  color: #a8dadc;
-  text-transform: lowercase;
+  color: tomato;
+  /* text-transform: lowercase; */
   font-size: 12px;
   font-weight: bold;
 }
