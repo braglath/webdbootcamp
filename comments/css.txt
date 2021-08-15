@@ -105,6 +105,7 @@ a[href$=".org"]{
 }
 
 ######## Pseudo Class ######
+they all start with a collon
 keyword added to a selector that specifies a special state of the selected element(s)
 :active - currently on active( style when the element press and hold)
 :checked - radio button or checkboxes
@@ -116,12 +117,27 @@ keyword added to a selector that specifies a special state of the selected eleme
 :nth-of-type(3) - style the 3rd element
 :nth-of-type(3n) - style every 3rd element
 
-they all start with a collon
 
 ###### Pseudo Elements ########
+they all start with ::
 keyword added to a selector that lets you style a particular part of selected element(s)
 ::after - add stylized text at the end of a line, not only text we can also have special charcs, icons, url and more
 ::before - add stylized text at the start of a line, not only text we can also have special charcs, icond, url and more
 ::first-letter - stylize the first letter of an element
 ::first-line - stylize the first line of an element, mostly in paragraph
 ::selection - when a user selects something on the page, you can stylize the color and more 
+
+###### The CSS Cascade #######
+the order your styles are declared and linked matters!!!!!!!!
+whatever style comes the second wins
+example
+h1{
+    color:blue;
+}
+h2{
+    color:purple;
+}
+from the above style, only the purple color will be shown!!!!!
+this also matters even when we use more than one style sheet
+the order we link the css in main html file also matters. whatever comes second will be shown
+overrides the first style
