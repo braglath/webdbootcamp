@@ -75,3 +75,33 @@ example
 div > li{
     color:white;
 }
+
+#### Attribute Selector ####
+select an input element where the type attribute is set to "text"
+example
+input[type="text"]{
+    width: 300px;
+    color: yellow;
+}
+
+class of post
+section[class="post"]{
+    color:blue;
+}
+
+href matching
+a[href="www.google.com"]{
+    color=blue;
+}
+
+href containing
+a[href*="example"]{
+    font-size*=2px;
+}
+
+href ending
+a[href$=".org"]{
+    font-style:italic;
+}
+
+######## Pseudo Class ######

@@ -69,3 +69,7 @@ div > a {
   font-size: 12px;
   font-weight: bold;
 }
+
+input[type="password"] {
+  color: #1d3557;
+}
