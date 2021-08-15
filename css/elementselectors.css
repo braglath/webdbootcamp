@@ -117,3 +117,23 @@ a:active {
 .post:nth-of-type(3n) {
   background-color: whitesmoke;
 }
+
+/*          Pseudo Elements           */
+h2::first-letter {
+  color: tomato;
+  font-size: xx-large;
+}
+
+::selection {
+  background-color: #fcbf48;
+}
+
+.post span::before {
+  content: ">>";
+  color: tomato;
+}
+
+.post span::after {
+  content: "<<";
+  color: tomato;
+}
