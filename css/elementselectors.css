@@ -48,3 +48,23 @@ h2 {
 footer a {
   color: #e63946;
 }
+
+h2 + button {
+  background-color: yellow;
+  font-size: 12px;
+}
+
+div {
+  margin: auto;
+  /* width: 50%; */
+  border: 10px tomato;
+  padding: 10px;
+  text-align: center;
+}
+
+div > a {
+  color: #a8dadc;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: bold;
+}

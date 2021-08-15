@@ -57,4 +57,21 @@ by using class we can group together different elements to style them in css
 
 ###### Decendant Selector #########
 we write using a space
-decendants - like we have in list, 
+decendants - like we have in list, one inside another 
+
+####### Adjacent selector ######
+we write using +
+adding two selectors **(one selctor which is right after another)** to style
+but only the second selector will be styled 
+example 
+h1 + P {
+    color:red;
+}
+above, h1 is a selector and p is another selector and we add them by putting + inbetween
+
+###### Direct Child #####
+selects only the li that are directly inside a div
+example
+div > li{
+    color:white;
+}
