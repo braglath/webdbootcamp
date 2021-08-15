@@ -61,7 +61,7 @@ decendants - like we have in list, one inside another
 
 ####### Adjacent selector ######
 we write using +
-adding two selectors **(one selctor which is right after another)** to style
+adding two selectors **(one selector which is right inside another)** to style
 but only the second selector will be styled 
 example 
 h1 + P {
