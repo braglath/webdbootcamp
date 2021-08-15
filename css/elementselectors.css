@@ -45,8 +45,20 @@ h2 {
   color: #1d3557;
 }
 
+footer {
+  background-color: black;
+  text-align: end;
+  font-size: 20px;
+  word-spacing: 15px;
+  padding-right: 25px;
+  height: 30px;
+  padding-top: 5px;
+}
+
 footer a {
-  color: #e63946;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 h2 + button {
@@ -72,4 +84,11 @@ div > a {
 
 input[type="password"] {
   color: #1d3557;
+}
+
+.post {
+  background-color: aqua;
+  margin: 20px;
+  text-align: center;
+  box-shadow: blue;
 }
