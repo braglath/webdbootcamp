@@ -43,6 +43,8 @@ h2 {
 
 .post a {
   color: #1d3557;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
@@ -80,6 +82,7 @@ div > a {
   /* text-transform: lowercase; */
   font-size: 12px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 input[type="password"] {
@@ -87,8 +90,30 @@ input[type="password"] {
 }
 
 .post {
-  background-color: aqua;
+  background-color: grey;
   margin: 20px;
   text-align: center;
   box-shadow: blue;
+  border-radius: 25px;
+  box-shadow: 2px 2px 8px black;
+}
+
+.post button:hover {
+  color: white;
+  background-color: tomato;
+  font-weight: bold;
+  /* font-size: 14px; */
+}
+
+.post a:hover {
+  text-decoration: tomato underline;
+  color: tomato;
+}
+
+a:active {
+  background-color: white;
+}
+
+.post:nth-of-type(3n) {
+  background-color: whitesmoke;
 }
