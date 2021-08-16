@@ -93,7 +93,6 @@ input[type="password"] {
   background-color: grey;
   margin: 20px;
   text-align: center;
-  box-shadow: blue;
   border-radius: 25px;
   box-shadow: 2px 2px 8px black;
 }

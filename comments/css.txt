@@ -122,9 +122,7 @@ keyword added to a selector that specifies a special state of the selected eleme
 they all start with ::
 keyword added to a selector that lets you style a particular part of selected element(s)
 ::after - add stylized text at the end of a line, not only text we can also have special charcs, icons, url and more
-::before - add stylized text at the start of a line, not only text we can also have special charcs, icond, url and more
-::first-letter - stylize the first letter of an element
-::first-line - stylize the first line of an element, mostly in paragraph
+z::first-letter - stylize the first letter of an element
 ::selection - when a user selects something on the page, you can stylize the color and more 
 
 ###### The CSS Cascade #######
@@ -141,3 +139,37 @@ from the above style, only the purple color will be shown!!!!!
 this also matters even when we use more than one style sheet
 the order we link the css in main html file also matters. whatever comes second will be shown
 overrides the first style
+
+###### Specificity #######
+it is how the browser decides which rules to apply when multiple rules could apply to the same element
+it is a measure of how specific a given selector is. The more specific selector "wins" 
+oder of Specificity
+ID, Class, Element
+we can use "specifitycalculator.com"
+
+if you add "!important" at the end of any style then it wins \
+generally try not to use important as it only overrides and it is not the right way
+
+inline styles - styling a element inside of css in the same line
+generally avoid inline style as it makes more confusing
+
+##### Inheritance #######
+elements will get the style even if it is not directly applied
+example
+HTML
+<body>
+<h1>sdfsdfsdsd</h1>
+</body> 
+
+CSS
+body{
+    color:blue;
+}
+
+certain elements don't inherit styles by default 
+all texts will inherit
+
+workaround to inherit a color 
+button{
+    color: inherit;
+}
