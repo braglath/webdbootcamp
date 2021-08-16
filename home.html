@@ -8,17 +8,30 @@
     <link rel="stylesheet" href="/css/elementselectors.css" />
   </head>
   <body>
-    <nav>
-      <label for="search"> Search</label>
-      <input type="search" name="search" id="search" placeholder="search" />
-      <input
-        type="password"
-        name="password"
-        id="password"
-        placeholder="password"
-      />
-      <button>Login</button> <button id="signup">Sign Up</button>
-    </nav>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <nav>
+            <ul>
+              <li><a href="home">Home</a></li>
+              <li><a href="about"> About</a></li>
+              <li><a href="contact"> Contact</a></li>
+              <li><a href="puppies"> Puppies </a></li>
+            </ul>
+          </nav>
+          <div class="loginbar">
+            <label for="search" class="search"> search</label>
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="search"
+            />
+            <button>Login</button> <button>Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </header>
     <main>
       <h1>Popular Posts</h1>
       <section class="post">
@@ -120,15 +133,37 @@
     </main>
     <footer>
       <!-- <span style="text-align: center" class="tagname">HTMLTestBragu</span> -->
-      <nav>
-        <a href="home">Home</a>
-        <a href="about"> About</a>
-        <a href="contact"> Contact</a>
-        <a href="puppies"> Puppies </a>
-      </nav>
     </footer>
+    <div id="empty"></div>
+    <div id="one">
+      <span
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente
+        eaque inventore quos. Totam deleniti quia inventore iure libero sit ut
+        est voluptates soluta, placeat cumque corporis atque, laborum
+        expedita!</span
+      >
+    </div>
+
+    <div id="two">
+      <span
+        >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum
+        consectetur unde, laudantium maxime itaque culpa corrupti magnam
+        suscipit, voluptatem, tempore rerum? Deserunt neque sunt placeat
+        consectetur, fugiat eum necessitatibus qui.</span
+      >
+    </div>
+
+    <div id="three">
+      <span
+        >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, laborum,
+        consequuntur nam saepe excepturi dolorum, fugit amet soluta ut ea nulla
+        deleniti tempore assumenda velit delectus. Iste, veniam adipisci.
+        Error.</span
+      >
+    </div>
+
     <br />
-    <div>
+    <div id="google">
       <a href="https://www.google.com/">Search on Google</a>
     </div>
   </body>
