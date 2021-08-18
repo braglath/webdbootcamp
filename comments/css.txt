@@ -181,4 +181,10 @@ border-width - thickness of the border
 border-color - color of the border
 border-style - line style , dashed, solid and more
 
-hello there
+##### Padding ###
+same as above we can add padding to individual sides
+examples of usages
+padding: 10px; - put padding on all 4 sides
+padding: 5px 10px; - padding on verical and horizontal sides
+padding: 1px 3px 2px; - top | horizontal | bottom
+padding: 5px 1px 0 3px; - top | right | bottom | left

@@ -1,14 +1,17 @@
 * {
-  font-family: sans-serif;
+    font-family: sans-serif;
 }
+
+
 /* we can use , to use multiple selectors */
 
 body {
-  /* background-color: #f1faee; */
-  background-image: url(https://wallpaperaccess.com/full/167408.jpg);
-  background-position: center;
-  background-size: cover;
+    /* background-color: #f1faee; */
+    background-image: url(https://wallpaperaccess.com/full/167408.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
 
 /* h1,
 h2 {
@@ -16,140 +19,148 @@ h2 {
 } */
 
 #signup {
-  background-color: #1d3557;
-  color: #a8dadc;
-  /* font-size: 20px; */
-  font-weight: bold;
+    background-color: #1d3557;
+    color: #a8dadc;
+    /* font-size: 20px; */
+    font-weight: bold;
 }
 
 span {
-  color: #1d3557;
+    color: #1d3557;
 }
 
 .tag {
-  color: white;
-  background-color: tomato;
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: bold;
+    color: white;
+    background-color: tomato;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h2 {
-  color: #1d3557;
+    color: #1d3557;
 }
 
+
 /* ######           h1 with animation          ####### */
+
 h1 {
-  color: white;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 2px 2px tomato;
-  animation: mymove 5s infinite;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px tomato;
+    animation: mymove 5s infinite;
 }
+
 @keyframes mymove {
-  50% {
-    text-shadow: 10px 20px 30px tomato;
-  }
+    50% {
+        text-shadow: 10px 20px 30px tomato;
+    }
 }
 
 .post a {
-  color: #1d3557;
-  text-decoration: none;
-  font-weight: bold;
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
-  background-color: #e5989b;
-  text-align: end;
-  font-size: 20px;
-  word-spacing: 15px;
-  padding-right: 25px;
-  height: 30px;
-  padding-top: 5px;
+    background-color: #e5989b;
+    text-align: end;
+    font-size: 20px;
+    word-spacing: 15px;
+    padding-right: 25px;
+    height: 30px;
+    padding-top: 5px;
 }
 
+
 /*           Header like in websites           */
+
 .container {
-  /* width: 100%;
+    /* width: 100%;
   height: 100vh; */
-  background-color: antiquewhite;
-  background-image: url(https://i.pinimg.com/originals/9e/13/96/9e13961797e766715094359972b12816.jpg);
-  background-position: center;
-  background-size: cover;
-  /* padding-left: 5%; */
-  padding-right: 5%;
-  box-sizing: border-box;
+    background-color: antiquewhite;
+    background-image: url(https://i.pinimg.com/originals/9e/13/96/9e13961797e766715094359972b12816.jpg);
+    background-position: center;
+    background-size: cover;
+    /* padding-left: 5%; */
+    padding-right: 5%;
+    box-sizing: border-box;
 }
 
 .navbar {
-  height: 12%;
-  display: flex;
-  align-items: center;
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 
 nav {
-  flex: 1;
-  text-align: left;
+    flex: 1;
+    text-align: left;
 }
 
 nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: tomato;
-  font-size: 20px;
+    color: tomato;
+    font-size: 20px;
 }
 
 .search {
-  margin-right: 10px;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
+    margin-right: 10px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 #search {
-  height: 30px;
-  text-align: center;
-  border-color: transparent;
+    height: 30px;
+    text-align: center;
+    border-color: transparent;
 }
 
 input:hover {
-  background-color: tomato;
+    background-color: tomato;
 }
 
 button {
-  margin-left: 10px;
-  background-color: #a8dadc;
-  font-size: 18px;
+    margin-left: 10px;
+    background-color: #a8dadc;
+    font-size: 18px;
 }
 
 button:hover {
-  background-color: tomato;
-  color: white;
+    background-color: tomato;
+    color: white;
 }
+
+
 /* ########################################## */
 
 footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-h2 + button {
-  background-color: yellow;
-  font-size: 12px;
+h2+button {
+    background-color: yellow;
+    font-size: 12px;
 }
+
 
 /* div {
   margin: auto;
@@ -159,96 +170,119 @@ h2 + button {
   text-align: center;
 } */
 
-div > a {
-  color: tomato;
-  /* text-transform: lowercase; */
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
+div>a {
+    color: tomato;
+    /* text-transform: lowercase; */
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 input[type="password"] {
-  color: #1d3557;
+    color: #1d3557;
 }
 
 .post {
-  background-color: #e85d04;
-  margin: 20px;
-  text-align: center;
-  border-radius: 25px;
-  box-shadow: 2px 2px 8px black;
+    background-color: #e85d04;
+    margin: 20px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px black;
 }
 
 .post button:hover {
-  color: white;
-  background-color: tomato;
-  font-weight: bold;
-  /* font-size: 14px; */
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    /* font-size: 14px; */
 }
 
 .post a:hover {
-  text-decoration: tomato underline;
-  color: tomato;
+    text-decoration: tomato underline;
+    color: tomato;
 }
 
 a:active {
-  background-color: white;
+    background-color: white;
 }
 
 .post:nth-of-type(3n) {
-  background-color: #caf0f8;
+    background-color: #caf0f8;
 }
 
+
 /*          Pseudo Elements           */
+
 h2::first-letter {
-  color: tomato;
-  font-size: xx-large;
+    color: tomato;
+    font-size: xx-large;
 }
 
 ::selection {
-  background-color: #fcbf48;
+    background-color: #fcbf48;
 }
 
 .post span::before {
-  content: ">>";
-  color: tomato;
+    content: ">>";
+    color: tomato;
 }
 
 .post span::after {
-  content: "<<";
-  color: tomato;
+    content: "<<";
+    color: tomato;
 }
 
-#empty {
-  height: 25px;
-}
+
+/* #empty {
+    height: 25px;
+} */
+
 
 /*          box styles           */
 
 #google {
-  margin: auto;
-  width: 200px;
-  border: 5px solid tomato;
-  padding: 10px;
-  text-align: center;
-  border-radius: 25px;
+    margin: auto;
+    width: 200px;
+    border: 5px solid tomato;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
 }
 
 #one {
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
-  background-color: #e5989b;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: #e5989b;
+    padding: 10px;
+    border-width: 5px;
+    border-color: #1d3557;
+    border-style: solid;
+    box-sizing: border-box;
+    border-bottom-style: none;
 }
+
 #two {
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
-  background-color: #b5838d;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: #b5838d;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
 }
+
 #three {
-  margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
-  background-color: #6d6875;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    background-color: #6d6875;
+    padding: 10px;
+    border-color: #1d3557;
+    border-style: solid;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-top-style: none;
 }
