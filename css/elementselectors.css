@@ -260,6 +260,7 @@ h2::first-letter {
     border-style: solid;
     box-sizing: border-box;
     border-bottom-style: none;
+    margin-bottom: 10px;
 }
 
 #two {
@@ -272,6 +273,7 @@ h2::first-letter {
     border-style: solid;
     border-top-style: none;
     border-bottom-style: none;
+    margin-bottom: 10px;
 }
 
 #three {

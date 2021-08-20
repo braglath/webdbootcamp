@@ -182,9 +182,31 @@ border-color - color of the border
 border-style - line style , dashed, solid and more
 
 ##### Padding ###
+spacing on the inside of the border
 same as above we can add padding to individual sides
 examples of usages
 padding: 10px; - put padding on all 4 sides
 padding: 5px 10px; - padding on verical and horizontal sides
 padding: 1px 3px 2px; - top | horizontal | bottom
 padding: 5px 1px 0 3px; - top | right | bottom | left
+
+### Margin ###
+spacing on the outside of the border
+just like others we have all 4 individual properties - left, right, bottom, top
+examples of usages
+margin: 10px; - put padding on all 4 sides
+margin: 5px 10px; - padding on verical and horizontal sides
+margin: 1px 3px 2px; - top | horizontal | bottom
+margin: 5px 1px 0 3px; - top | right | bottom | left
+
+#### Display Property ####
+display: inline;
+
+inline element - width and height are ignored. Margin & padding push elements away horizontally
+but not vertically
+block - break the flow of a document. Width, height, margin & padding are respected.
+inline-block - behave like an inline element except Width, height , margin & padding are respected
+
+examples
+h1 takes up entire line of space
+span does not take up entire line of space
