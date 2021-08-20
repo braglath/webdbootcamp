@@ -210,3 +210,12 @@ inline-block - behave like an inline element except Width, height , margin & pad
 examples
 h1 takes up entire line of space
 span does not take up entire line of space
+
+#### CSS Unites ####
+Relative Units
+em, rem, vh, vm, %
+example 
+width: 50% - half the width of the parent
+line-height: 50% - half the font size of the element itself
+
+Absolute Units
