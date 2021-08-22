@@ -300,6 +300,7 @@ h2::first-letter {
     text-decoration: none;
     text-shadow: 2px 2px #ff0000;
     transition: 1s;
+    margin-left: 15px;
 }
 
 #topics a:hover {
@@ -310,6 +311,6 @@ h2::first-letter {
     transition: none;
 }
 
-ul {
-    list-style-type: none;
+li {
+    display: inline-block;
 }

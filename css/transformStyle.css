@@ -1,0 +1,53 @@
+#google {
+    margin: auto;
+    width: 200px;
+    border: 5px solid tomato;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+div>a {
+    color: tomato;
+    /* text-transform: lowercase; */
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: end;
+}
+
+h1 {
+    background-color: #2a9d8f;
+    border: 5px solid #264653;
+    color: #eae2b7;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 20px auto;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+}
+
+h1:nth-last-of-type(2n) {
+    background-color: #e9c46a;
+}
+
+h1:nth-last-of-type(3n) {
+    background-color: teal;
+}
+
+h1:nth-last-of-type(4n) {
+    background-color: tomato;
+}
+
+section:first-of-type h1:nth-last-of-type(1) {
+    transform: rotatez(180deg);
+    transition: 0.5s ease-in-out;
+    transform-origin: inherit;
+}
+
+section:first-of-type h1:nth-last-of-type(1):hover {
+    transform: none;
+    border-color: #e9c46a;
+}

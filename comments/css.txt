@@ -298,3 +298,23 @@ transition-timing-function: ease-in
 ease-out
 liner
 and more
+go to easings.net for bounce and more ease anime codes
+
+######## Transform ####
+for a block level element if the margin is set to be auto then it will come to the center of the screen
+use transfotm-origin to pin the rotation
+example
+transform-origin: top left;
+matrix, matrix3d
+perspective
+rotate, rotate3d - deg, grad, turns
+example-
+transform: rotate(360deg);
+transform: rotate3d(360deg);
+transform: rotatex(360deg);
+y
+z
+
+translate, translate3d
+scale, scale3d
+skew, skewx, skewy
