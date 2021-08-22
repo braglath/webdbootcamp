@@ -74,6 +74,10 @@ footer {
     padding-top: 5px;
 }
 
+header {
+    position: sticky;
+}
+
 
 /*           Header like in websites           */
 
@@ -287,4 +291,25 @@ h2::first-letter {
     box-sizing: border-box;
     border-width: 5px;
     border-top-style: none;
+}
+
+#topics a {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px #ff0000;
+    transition: 1s;
+}
+
+#topics a:hover {
+    color: tomato;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px white;
+    transition: none;
+}
+
+ul {
+    list-style-type: none;
 }

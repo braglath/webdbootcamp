@@ -273,3 +273,28 @@ sticky - not fixed when scrolling but fixed when the scroll comes back to the po
 
 -webkit-sticky - check in MDN website
 
+###### Transitions #######
+transitions: 1s;
+transition from one to another , like when hover
+we can add the transition to the main element, not needed on hover style
+we can specify property name, duration, timing function and delay
+
+specific property name - 
+transition: background-colour 1s;
+
+for all properties - 
+transition: all 1s;
+
+delay-
+transition: background-colour 2s 1s; here 1s is the delay and 2s is the transition time
+
+we can also add multiple transitions in a single line but putting a comma
+example
+transition: border-width 2s, background-color 1s;
+
+Timing Function
+there are many transition timing functions that are built in
+transition-timing-function: ease-in 
+ease-out
+liner
+and more
