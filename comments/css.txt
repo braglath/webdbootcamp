@@ -326,3 +326,10 @@ transform: scale(2);
 transform: scale(xaxis,yaxis);
 
 skew, skewx, skewy - accepts angles(deg), skews an element
+
+
+##### BUTTON HOVER ANIMATION ##### 
+box-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius, color
+text-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius, color
+cursor: pointer; - changes the cursor to a pointer(like a hand clicking button)
+

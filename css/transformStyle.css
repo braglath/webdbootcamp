@@ -5,6 +5,12 @@
     padding: 10px;
     text-align: center;
     border-radius: 25px;
+    margin-top: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+#google:hover {
+    border-color: white;
 }
 
 div>a {
@@ -14,10 +20,20 @@ div>a {
     font-weight: bold;
     text-decoration: none;
     text-align: end;
+    transition: 0.5s ease-in-out;
+}
+
+div>a:hover {
+    color: white;
+}
+
+body {
+    background-color: #1f1b29;
 }
 
 h2 {
     text-align: center;
+    color: white;
 }
 
 h1 {
@@ -99,4 +115,31 @@ section:first-of-type h1:nth-last-of-type(4):hover {
     border-color: #e9c46a;
     transform: skew(20deg);
     transform-origin: inherit;
+}
+
+
+/* BUTTON ANIMATION */
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* todo height: 100vh; - this will make the element to appear dead center of the screen  */
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.1s ease-in;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translatey(-0.1em);
+    cursor: pointer;
 }
