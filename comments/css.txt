@@ -218,4 +218,14 @@ example
 width: 50% - half the width of the parent
 line-height: 50% - half the font size of the element itself
 
-Absolute Units
+em- 1em = font-size of the parent.
+2em = twice the font size of the parent
+and so on
+ems are so useful in buttons and varying sizes
+ems completely depends on the parent font size
+problem with ems are they can grow or shrink quickly so only choose ems when there is only one parent
+we can use rems for the problem above 
+
+rems - same as ems 1x 2x and so on but it only considers the root element's size
+
+Absolute Units - px
