@@ -229,3 +229,47 @@ we can use rems for the problem above
 rems - same as ems 1x 2x and so on but it only considers the root element's size
 
 Absolute Units - px
+
+###### Opacity and Alpha Channel ######
+rgba(red,gree,blue,alpha)
+alpha value is 0-1
+either give a color value of rgba or opacity:
+example - color: rgba(255,255,255,1); - color with opacity
+or opacity: 1; - only opacity
+
+if an opacity is applied to a parent then all the elements/contents within that parent will also get affected
+
+
+#### Position #####
+top, right, bottom and left values
+we can also use negative values (-100px)
+
+static - noting affects and the element position will not be changed
+example
+position:static;
+top: 100px;
+
+relative - space is given as if position were static but this offsets the position relative to the document/line/container
+example
+position: relative;
+right: 100px;
+object moves left (offsets)
+
+fixed - removed from the document flow, no space is given and no offset
+*****very useful for nav bar******
+example
+position: fixed;
+top: 100px;
+
+absolute - removed from the flow of the document and no space is given like relative
+this also brings the element in front of other elements
+example
+position: absolute;
+top: 5px;
+if the parent has a position of relative then the element with position absolute will only move inside the parent
+
+sticky - not fixed when scrolling but fixed when the scroll comes back to the position
+******** very useful for nav bar ******* 
+
+-webkit-sticky - check in MDN website
+

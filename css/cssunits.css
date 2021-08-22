@@ -1,18 +1,55 @@
 section {
     background-color: #6d6875;
-    width: 800px;
-    height: 800px;
+    width: 100px;
+    height: 100px;
+    align-items: center;
 }
 
-div {
+
+/* div {
     box-sizing: content-box;
     background-color: aqua;
     width: 50%;
     height: 50%;
-}
+} */
 
 h1 {
-    font-size: 40px;
+    font-size: 2em;
     border: 1px solid black;
     line-height: 200%;
+}
+
+#one {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    left: 50px;
+}
+
+#two {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#three {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 5px;
+}
+
+#bigone {
+    position: relative;
 }
