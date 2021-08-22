@@ -315,6 +315,14 @@ transform: rotatex(360deg);
 y
 z
 
-translate, translate3d
-scale, scale3d
-skew, skewx, skewy
+translate, translate3d - to move an element, we also have translate3d, translate x y and z
+have to be a length or some percentage
+example-
+transform: translatex(100px);
+
+scale, scale3d - same as rotate, this will scale the element, we also have scale3d, scale x y and z
+example-
+transform: scale(2);
+transform: scale(xaxis,yaxis);
+
+skew, skewx, skewy - accepts angles(deg), skews an element

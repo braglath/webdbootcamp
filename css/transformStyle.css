@@ -16,6 +16,10 @@ div>a {
     text-align: end;
 }
 
+h2 {
+    text-align: center;
+}
+
 h1 {
     background-color: #2a9d8f;
     border: 5px solid #264653;
@@ -41,6 +45,9 @@ h1:nth-last-of-type(4n) {
     background-color: tomato;
 }
 
+
+/* ROTATE */
+
 section:first-of-type h1:nth-last-of-type(1) {
     transform: rotatez(180deg);
     transition: 0.5s ease-in-out;
@@ -50,4 +57,46 @@ section:first-of-type h1:nth-last-of-type(1) {
 section:first-of-type h1:nth-last-of-type(1):hover {
     transform: none;
     border-color: #e9c46a;
+}
+
+
+/* SCALE */
+
+section:first-of-type h1:nth-last-of-type(2) {
+    transition: 0.5s ease-in-out;
+}
+
+section:first-of-type h1:nth-last-of-type(2):hover {
+    transform: none;
+    border-color: #e9c46a;
+    transform: scale(1.1);
+    transform-origin: inherit;
+}
+
+
+/* TRANSLATE */
+
+section:first-of-type h1:nth-last-of-type(3) {
+    transition: 0.5s ease-in-out;
+}
+
+section:first-of-type h1:nth-last-of-type(3):hover {
+    transform: none;
+    border-color: #e9c46a;
+    transform: translatex(150px);
+    transform-origin: inherit;
+}
+
+
+/* SKEW */
+
+section:first-of-type h1:nth-last-of-type(4) {
+    transition: 0.5s ease-in-out;
+}
+
+section:first-of-type h1:nth-last-of-type(4):hover {
+    transform: none;
+    border-color: #e9c46a;
+    transform: skew(20deg);
+    transform-origin: inherit;
 }
