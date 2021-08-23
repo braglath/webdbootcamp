@@ -143,3 +143,21 @@ button:hover {
     transform: translatey(-0.1em);
     cursor: pointer;
 }
+
+section #background {
+    width: 80%;
+    height: 800%;
+    margin: 0 auto;
+    background-color: #eae2b7;
+    /* background-image: url(https://img.freepik.com/free-vector/colorful-palm-silhouettes-background_23-2148541792.jpg?size=626&ext=jpg); */
+    background-image: url(https://www.freepnglogos.com/uploads/star-png/star-vector-png-transparent-image-pngpix-21.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: right 35% bottom 45%;
+    /* background-attachment: local; */
+}
+
+#background {
+    font-size: 100px;
+    color: white;
+}

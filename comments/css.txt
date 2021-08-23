@@ -333,3 +333,22 @@ box-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius,
 text-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius, color
 cursor: pointer; - changes the cursor to a pointer(like a hand clicking button)
 
+#### BACKGROUND ####
+background-image:url(paste the url or the file location path here);
+we can also have multiple background
+
+background-size: cover/contain/auto/<length>/<percentage>;
+contain - scales the image and it will repeat the image if any empty spaces. this will not crop or stretch the image
+cover - scales the image, it stretches the image to fill up
+auto - scales the image in such a way that the image's proportions are not changed 
+we can also use units and also give 2values like x and y
+background-size: 3em 25%;
+
+background-repeat: repeat-x/repeat/space/round/no-repeat/space repeat;
+repeats are best for patterns
+
+background-position: top/left/center/ 25% 75%/bottom 50px right 100px/
+
+background - this is the property that sets all the other background property in a single line - order generally does't matter
+but if we want to add background size then we need to add / right after the position property
+background-clip/background-color/background-image/background-origin/background-position/background-repeat/background-size and background-attachment
