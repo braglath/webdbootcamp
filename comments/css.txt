@@ -352,3 +352,24 @@ background-position: top/left/center/ 25% 75%/bottom 50px right 100px/
 background - this is the property that sets all the other background property in a single line - order generally does't matter
 but if we want to add background size then we need to add / right after the position property
 background-clip/background-color/background-image/background-origin/background-position/background-repeat/background-size and background-attachment
+
+##### Google Fonts #####
+mostly use the fonts that are in google
+fonts.google.com
+you can just download the font or copy the embed and paste it in the <head> section of our html
+check the paring section to see what two fonts go well with each other
+copy and past the style css code from the website
+font-family: Raleway, sans-serif;
+
+### Calculations ####
+calc();
+code example
+margin: calc(10%/6);
+
+### Problem with Html ###
+automatically provides a spaces inbetween
+<img>
+<img>
+when the code is in different line then it creates a space inbetween
+if using flex boxes then this issue will be addressed
+
