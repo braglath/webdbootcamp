@@ -1,6 +1,5 @@
 below will be the comments for css
 
-
 ####### FONTS #####
 
 px -- is the most commonly used unit
@@ -20,88 +19,92 @@ use mark{} in css to change the color of the marker
 HELLO THERE
 how are you doing???
 
-
 testing git push for the second time
 
-###### CSS SELECTOR #########
-Universal Selector - * - this selects everything in the document
+###### CSS SELECTOR
+
+Universal Selector - _ - this selects everything in the document
 example
-*{
-    color:black;
-} -  this makes everything black
+_{
+color:black;
+} - this makes everything black
 
 button - this selects all buttons
 example
 button{
-    font-size: 18px;
+font-size: 18px;
 }
 
-we can use comma to use multiple selectors 
-like 
+we can use comma to use multiple selectors
+like
 h1,h2{
-    font-size: violet;
+font-size: violet;
 }
 
+###### ID Selector
 
-###### ID Selector #######
 we can use id to hook between html and css
 but when using an id of a html in css, you have to add #in front of the id in css
 no space between # and the id text in css
 1 id should be only used once when for the hook
 use id selectors as less as possible, there are other selectors to style individual elements
 
-##### Class Selector #######
+##### Class Selector
+
 same as an id selector(check above) but this can be use on multiple elements
 when using class hook in css, you have to add a . in front of the class name in css
 by using class we can group together different elements to style them in css
 
-###### Decendant Selector #########
+###### Decendant Selector
+
 we write using a space
-decendants - like we have in list, one inside another 
+decendants - like we have in list, one inside another
 
 ####### Adjacent selector ######
 we write using +
 adding two selectors **(one selector which is right inside another)** to style
-but only the second selector will be styled 
-example 
+but only the second selector will be styled
+example
 h1 + P {
-    color:red;
+color:red;
 }
 above, h1 is a selector and p is another selector and we add them by putting + inbetween
 
-###### Direct Child #####
+###### Direct Child
+
 selects only the li that are directly inside a div
 example
 div > li{
-    color:white;
+color:white;
 }
 
-#### Attribute Selector ####
+#### Attribute Selector
+
 select an input element where the type attribute is set to "text"
 example
 input[type="text"]{
-    width: 300px;
-    color: yellow;
+width: 300px;
+color: yellow;
 }
 
 class of post
 section[class="post"]{
-    color:blue;
+color:blue;
 }
 
 href matching
 a[href="www.google.com"]{
-    color=blue;
+color=blue;
 }
 
 href containing
 a[href*="example"]{
-    font-size*=2px;
+font-size\*=2px;
 }
 
 href ending
 a[href$=".org"]{
-    font-style:italic;
+font-style:italic;
 }
 
 ######## Pseudo Class ######
@@ -117,32 +120,34 @@ keyword added to a selector that specifies a special state of the selected eleme
 :nth-of-type(3) - style the 3rd element
 :nth-of-type(3n) - style every 3rd element
 
+###### Pseudo Elements
 
-###### Pseudo Elements ########
 they all start with ::
 keyword added to a selector that lets you style a particular part of selected element(s)
 ::after - add stylized text at the end of a line, not only text we can also have special charcs, icons, url and more
 z::first-letter - stylize the first letter of an element
-::selection - when a user selects something on the page, you can stylize the color and more 
+::selection - when a user selects something on the page, you can stylize the color and more
 
-###### The CSS Cascade #######
+###### The CSS Cascade
+
 the order your styles are declared and linked matters!!!!!!!!
 whatever style comes the second wins
 example
 h1{
-    color:blue;
+color:blue;
 }
 h2{
-    color:purple;
+color:purple;
 }
 from the above style, only the purple color will be shown!!!!!
 this also matters even when we use more than one style sheet
 the order we link the css in main html file also matters. whatever comes second will be shown
 overrides the first style
 
-###### Specificity #######
+###### Specificity
+
 it is how the browser decides which rules to apply when multiple rules could apply to the same element
-it is a measure of how specific a given selector is. The more specific selector "wins" 
+it is a measure of how specific a given selector is. The more specific selector "wins"
 oder of Specificity
 ID, Class, Element
 we can use "specifitycalculator.com"
@@ -153,25 +158,27 @@ generally try not to use important as it only overrides and it is not the right 
 inline styles - styling a element inside of css in the same line
 generally avoid inline style as it makes more confusing
 
-##### Inheritance #######
+##### Inheritance
+
 elements will get the style even if it is not directly applied
 example
 HTML
+
 <body>
 <h1>sdfsdfsdsd</h1>
-</body> 
+</body>
 
 CSS
 body{
-    color:blue;
+color:blue;
 }
 
-certain elements don't inherit styles by default 
+certain elements don't inherit styles by default
 all texts will inherit
 
-workaround to inherit a color 
+workaround to inherit a color
 button{
-    color: inherit;
+color: inherit;
 }
 
 ######### Box ##########
@@ -181,7 +188,8 @@ border-width - thickness of the border
 border-color - color of the border
 border-style - line style , dashed, solid and more
 
-##### Padding ###
+##### Padding
+
 spacing on the inside of the border
 same as above we can add padding to individual sides
 examples of usages
@@ -190,7 +198,8 @@ padding: 5px 10px; - padding on verical and horizontal sides
 padding: 1px 3px 2px; - top | horizontal | bottom
 padding: 5px 1px 0 3px; - top | right | bottom | left
 
-### Margin ###
+### Margin
+
 spacing on the outside of the border
 just like others we have all 4 individual properties - left, right, bottom, top
 examples of usages
@@ -199,7 +208,8 @@ margin: 5px 10px; - padding on verical and horizontal sides
 margin: 1px 3px 2px; - top | horizontal | bottom
 margin: 5px 1px 0 3px; - top | right | bottom | left
 
-#### Display Property ####
+#### Display Property
+
 display: inline;
 
 inline element - width and height are ignored. Margin & padding push elements away horizontally
@@ -211,10 +221,11 @@ examples
 h1 takes up entire line of space
 span does not take up entire line of space
 
-#### CSS Unites ####
+#### CSS Unites
+
 Relative Units
 em, rem, vh, vm, %
-example 
+example
 width: 50% - half the width of the parent
 line-height: 50% - half the font size of the element itself
 
@@ -224,13 +235,14 @@ and so on
 ems are so useful in buttons and varying sizes
 ems completely depends on the parent font size
 problem with ems are they can grow or shrink quickly so only choose ems when there is only one parent
-we can use rems for the problem above 
+we can use rems for the problem above
 
 rems - same as ems 1x 2x and so on but it only considers the root element's size
 
 Absolute Units - px
 
-###### Opacity and Alpha Channel ######
+###### Opacity and Alpha Channel
+
 rgba(red,gree,blue,alpha)
 alpha value is 0-1
 either give a color value of rgba or opacity:
@@ -239,8 +251,8 @@ or opacity: 1; - only opacity
 
 if an opacity is applied to a parent then all the elements/contents within that parent will also get affected
 
+#### Position
 
-#### Position #####
 top, right, bottom and left values
 we can also use negative values (-100px)
 
@@ -256,7 +268,7 @@ right: 100px;
 object moves left (offsets)
 
 fixed - removed from the document flow, no space is given and no offset
-*****very useful for nav bar******
+**\***very useful for nav bar**\*\***
 example
 position: fixed;
 top: 100px;
@@ -269,20 +281,21 @@ top: 5px;
 if the parent has a position of relative then the element with position absolute will only move inside the parent
 
 sticky - not fixed when scrolling but fixed when the scroll comes back to the position
-******** very useful for nav bar ******* 
+**\*\*\*\*** very useful for nav bar **\*\*\***
 
 -webkit-sticky - check in MDN website
 
-###### Transitions #######
+###### Transitions
+
 transitions: 1s;
 transition from one to another , like when hover
 we can add the transition to the main element, not needed on hover style
 we can specify property name, duration, timing function and delay
 
-specific property name - 
+specific property name -
 transition: background-colour 1s;
 
-for all properties - 
+for all properties -
 transition: all 1s;
 
 delay-
@@ -294,7 +307,7 @@ transition: border-width 2s, background-color 1s;
 
 Timing Function
 there are many transition timing functions that are built in
-transition-timing-function: ease-in 
+transition-timing-function: ease-in
 ease-out
 liner
 and more
@@ -327,20 +340,21 @@ transform: scale(xaxis,yaxis);
 
 skew, skewx, skewy - accepts angles(deg), skews an element
 
+##### BUTTON HOVER ANIMATION
 
-##### BUTTON HOVER ANIMATION ##### 
 box-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius, color
 text-shadow: 12px 12px 10px 10px red; - xaxis, yaxis, blur radius, spread radius, color
 cursor: pointer; - changes the cursor to a pointer(like a hand clicking button)
 
-#### BACKGROUND ####
+#### BACKGROUND
+
 background-image:url(paste the url or the file location path here);
 we can also have multiple background
 
 background-size: cover/contain/auto/<length>/<percentage>;
 contain - scales the image and it will repeat the image if any empty spaces. this will not crop or stretch the image
 cover - scales the image, it stretches the image to fill up
-auto - scales the image in such a way that the image's proportions are not changed 
+auto - scales the image in such a way that the image's proportions are not changed
 we can also use units and also give 2values like x and y
 background-size: 3em 25%;
 
@@ -353,7 +367,8 @@ background - this is the property that sets all the other background property in
 but if we want to add background size then we need to add / right after the position property
 background-clip/background-color/background-image/background-origin/background-position/background-repeat/background-size and background-attachment
 
-##### Google Fonts #####
+##### Google Fonts
+
 mostly use the fonts that are in google
 fonts.google.com
 you can just download the font or copy the embed and paste it in the <head> section of our html
@@ -361,15 +376,74 @@ check the paring section to see what two fonts go well with each other
 copy and past the style css code from the website
 font-family: Raleway, sans-serif;
 
-### Calculations ####
+## **Calculations**
+
 calc();
 code example
 margin: calc(10%/6);
 
-### Problem with Html ###
+### Problem with Html
+
 automatically provides a spaces inbetween
 <img>
 <img>
 when the code is in different line then it creates a space inbetween
 if using flex boxes then this issue will be addressed
 
+# **Flex Box**
+
+# **flex-direction**
+
+<flex-direction: row;>
+_puts the element inside a flex-box in a row(one next to another)_
+
+<flex-direction: row-reverse;>
+_puts the element inside a flex-box in a row but reverse the elements_
+
+<flex-direction: column;>
+_puts the element inside a flex-box in a column(one below another)_
+
+<flex-direction: column-reverse;>
+_puts the element inside a flex-box in a column but reverse the elements_
+
+# **justify-content**
+
+_how to elements of a flex-box is distributed_
+
+- <justify-content: flex-start;>
+  _if our main axis if from left to right then this will put the elements at the start_
+
+- <justify-content: flex-end;>
+  _this will put the elements at the end(opp of flex-start)_
+
+- <justify-content: center;>
+  _this will center our elements along the main axis_
+
+- <justify-content: space-between;>
+  _create equal spaces between the adjacent elements but not outside the elements_
+
+- <justify-content: space-around;>
+  _create space around the elements(opp of space-between)_
+
+- <justify-content: space-evenly;>
+  _create equal/even spaces around the elements(best to use than space-around)_
+
+# **Flex Wrap**
+
+**when the flex box size is smaller than the elements inside, then the flex box will reduce the size of the elements inside it**
+
+_how the elements inside a flex-box are wrapped_
+
+- <flex-wrap: wrap;>
+
+  - _puts the elements inside without changing the size of the elements(then we can use justify-content to determine the spaces between the elements)_
+  - _wraps downwards_
+
+- <flex-wrap: wrap-reverse;>
+
+  - _ (opp of wrap)puts the elements inside without changing the size of the elements but reverses the elements (then we can use justify-content to determine the spaces between the elements)_
+  - _wraps upwards_
+
+  - <flex-wrap: nowrap;>
+
+  - _no wraps(nothing happens)_
